@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Rocco M Kovacic</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/Projects/project-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Rocco M Kovacic</h1>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="../index.html#home">Home</a></li>
+                </ul>
+            </nav>
+            <div class="resume-btn">
+                <a href="/files/RoccoKovacic_Resume.pdf" class="btn" download="RoccoKovacic_Resume.pdf">Resume <i class="fas fa-download"></i></a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-header">
+                    <h1>Project 2 Title</h1>
+                    <div class="project-links">
+                        <a href="https://github.com/RoccoKovacic/Market-Radar" class="btn btn-sm btn-outline" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-image-main">
+                    <img src="/placeholder.svg?height=500&width=900" alt="Project 2 Main Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-overview">
+            <div class="container">
+                <div class="project-overview-grid">
+                    <div class="project-description">
+                        <h2>Project Overview</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                        <p>Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                        
+                        <h3>Problem Statement</h3>
+                        <p>Describe the problem this project aimed to solve and why it was important.</p>
+                        
+                        <h3>Solution</h3>
+                        <p>Explain your approach to solving the problem and the key features of your solution.</p>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-info-card">
+                            <h3>Technologies Used</h3>
+                            <ul class="tech-list">
+                                <li><i class="fab fa-python"></i> Python</li>
+                                <li><i class="fab fa-aws"></i> AWS</li>
+                                <li><i class="fas fa-database"></i> PostgreSQL</li>
+                                <li><i class="fab fa-html5"></i> HTML5</li>
+                                <li><i class="fab fa-sass"></i> Sass</li>
+                            </ul>
+                        </div>
+                        <div class="project-info-card">
+                            <h3>Timeline</h3>
+                            <p>April 2023 - June 2023</p>
+                        </div>
+                        <div class="project-info-card">
+                            <h3>Role</h3>
+                            <p>Backend Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Feature 1</h3>
+                        <p>Description of this feature and how it benefits users.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Feature 2</h3>
+                        <p>Description of this feature and how it benefits users.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Feature 3</h3>
+                        <p>Description of this feature and how it benefits users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-gallery">
+            <div class="container">
+                <h2>Project Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Screenshot 1">
+                        <div class="gallery-caption">Caption for screenshot 1</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Screenshot 2">
+                        <div class="gallery-caption">Caption for screenshot 2</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Screenshot 3">
+                        <div class="gallery-caption">Caption for screenshot 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-conclusion">
+            <div class="container">
+                <div class="next-project">
+                    <a href="/index.html" class="btn"><i class="fas fa-arrow-left"></i> Go Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rocco M Kovacic.</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="/placeholder.svg" alt="Modal Image">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

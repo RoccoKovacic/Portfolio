@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Rocco M Kovacic</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/Projects/project-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Rocco M Kovacic</h1>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="../index.html#home">Home</a></li>
+                </ul>
+            </nav>
+            <div class="resume-btn">
+                <a href="/files/RoccoKovacic_Resume.pdf" class="btn" download="RoccoKovacic_Resume.pdf" target="_blank">Resume <i class="fas fa-download"></i></a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="/files/RoccoKovacic_Resume.pdf">Resume</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-header">
+                    <h1>WebChef</h1>
+                    <div class="project-links">
+                        <a href="https://github.com/RoccoKovacic/WebChef" class="btn btn-sm btn-outline" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-image-main">
+                    <img src="/images/WebChef/MockDesign1.png" alt="Project 1 Main Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="project-overview">
+            <div class="container">
+                <div class="project-overview-grid">
+                    <div class="project-description">
+                        </h5>*This is a mock up design of an interative WebChef Page*</h5>
+                        <h3>Project Status</h3>
+                        <p>Planned</p>
+                        
+                        <h3>Project Concept</h3>
+                        <p>A tool that allows users to sketch a website as if they were using MS Paint, 
+                            and transforms those sketches into functional web apps.</p>
+                        
+                        <h3>Project Goal</h3>
+                        <p>The goal behind webchef is to simplify web design for non-developers and enhance creativity 
+                            in UI/UX prototyping.</p>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-info-card">
+                            <h3>Technologies I Plan To Use</h3>
+                            <ul class="tech-list">
+                                <li><i class="fab fa-html5"></i> HTML5/CSS3</li>
+                                <li><i class="fab fa-js"></i> JavaScript</li>
+                                <li><i class="fas fa-paint-brush"></i> Canvas API</li>
+                                <li><i class="fab fa-react"></i> React</li>
+                                <li><i class="fas fa-code"></i> Fabric.js</li>
+                                <li><i class="fas fa-brain"></i> TensorFlow.js</li>
+                                <li><i class="fas fa-camera"></i> OpenCV.js</li>
+                                <li><i class="fab fa-python"></i> Python (Flask/Django)</li>
+                                <li><i class="fas fa-database"></i> MongoDB</li>
+                                <li><i class="fas fa-fire"></i> Firebase</li>
+                                <li><i class="fab fa-aws"></i> AWS/GCP</li>
+                                <li><i class="fab fa-docker"></i> Docker</li>
+                                <li><i class="fas fa-server"></i> RESTful API</li>
+                                <li><i class="fas fa-file-code"></i> HTML Generation</li>
+                                <li><i class="fas fa-cloud"></i> Cloud Deployment</li>
+                            </ul>
+                        </div>
+                        <div class="project-info-card">
+                            <h3>Timeline</h3>
+                            <p>March 2025 - Current</p>
+                            <p>Estimated End Date: ~ May 1st</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Intuitive Drawing Interface</h3>
+                        <p>Users can sketch web pages as if using MS Paint, with drawing tools like lines, shapes, text, and colors.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Code Generation</h3>
+                        <p>Transforms sketches into functional HTML, CSS, and JavaScript code.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-gallery">
+            <div class="container">
+                <h2>Project Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="/images/UnderConstruction.jpeg" alt="Screenshot 1">
+                        <div class="gallery-caption">This project is still in its planning phase</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-conclusion">
+            <div class="container">
+                <div class="next-project">
+                    <a href="/index.html" class="btn"><i class="fas fa-arrow-left"></i> Go Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rocco M Kovacic.</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="/placeholder.svg" alt="Modal Image">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
